@@ -137,7 +137,7 @@ public class PosWindow extends JFrame {
 	DefaultTableModel modelSaleItemList = null;
 	JTable tableSaleItemList = null;
 
-	MarketMemberDAO memDAO = new MarketMemberDAO();
+	MarketMemberDAO memDAO = new MarketMemberDAO(); 
 	ProductDAO proDAO = new ProductDAO();
 	SaleDAO saleDAO = new SaleDAO();
 	SaleListDAO saleListDAO = new SaleListDAO();
